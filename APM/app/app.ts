@@ -1,3 +1,4 @@
 /// <reference path="../typings/tsd.d.ts" />
-
-angular.module('productManagement', []);
+module app {
+    angular.module('productManagement', []);
+}

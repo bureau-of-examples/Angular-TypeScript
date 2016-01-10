@@ -1,3 +1,6 @@
 /// <reference path="../typings/tsd.d.ts" />
-angular.module('productManagement', []);
+var app;
+(function (app) {
+    angular.module('productManagement', []);
+})(app || (app = {}));
 //# sourceMappingURL=app.js.map
